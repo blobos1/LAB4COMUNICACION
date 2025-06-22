@@ -1,0 +1,4 @@
+Este archivo .grc lleva a cabo el sistemas de comunicaciones requerido para el laboratorio. Al usarse deben definirse los siguientes datos para su debida utilizacion:
+variable const_type = 0 BPSK, 1 = QPSK, 2 = 8PSK
+Ademas, debe definirse el maximo en el bloque de random source, esto debido a un error presente. 
+Valor maximo en bloque random source: BPSK = 2, QPSK = 4, 8PSK = 8.
